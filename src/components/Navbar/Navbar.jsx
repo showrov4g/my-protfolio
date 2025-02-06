@@ -1,7 +1,7 @@
 import logo from "../../assets/logo.svg"
 const Navbar = () => {
     return (
-        <div className="w-10/12 flex items-center justify-between my-2.5 mx-auto ">
+        <div className="flex items-center justify-between my-2.5">
             <img src={logo} alt="" />
             {/* nav menu  */}
             <ul className="flex items-center gap-5">
