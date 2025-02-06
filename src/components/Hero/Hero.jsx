@@ -8,8 +8,8 @@ const Hero = () => {
             <p className="w-1/2 text-center text-2xl leading-10">I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
             {/* buttons  */}
             <div className="flex items-center gap-6 text-2xl font-medium mb-12">
-                <div>Connect with me</div>
-                <div>My Resume</div>
+                <div className="py-6 px-12 rounded-full bg-linear-to-r from-[#DF8908] to-[#B415FF] cursor-pointer transition-all duration-75 hover:border-2 hover:border-white">Connect with me</div>
+                <div className="py-6 px-12 rounded-full border-2 border-white transition-all duration-75 hover:border-[#B415FF]">My Resume</div>
             </div>
         </div>
     );
