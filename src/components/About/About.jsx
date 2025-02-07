@@ -3,14 +3,14 @@ import themeParen from "../../assets/theme_pattern.svg";
 import "./About.css";
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-20 my-20 ">
+    <div id="about" className="flex flex-col items-center justify-center gap-20 my-20 ">
       {/* title  */}
       <div className="relative ">
         <h1 className="px-7 text-7xl font-semibold z-10">About Me</h1>
         <img className="about-patten" src={themeParen} alt="" />
       </div>
       {/* left section  */}
-      <div className="flex gap-20">
+      <div className="md:flex gap-20 space-y-6">
         <div>
           <img src={profileImg} alt="" />
         </div>
@@ -47,7 +47,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* achievement section  */}
+      {/* achievement section 
       <div className="achievement flex w-full justify-around mb-20">
         <div className="flex flex-col items-center gap-2.5 transition-all duration-200 hover:scale-125">
           <h1>10+</h1>
@@ -63,7 +63,7 @@ const About = () => {
           <h1>10+</h1>
           <p className="text-xl font-medium">Happy clients</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

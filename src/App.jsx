@@ -1,5 +1,7 @@
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/HEro";
+import MyWork from "./components/myWork/MyWork";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
@@ -8,6 +10,8 @@ const App = () => {
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
+      <MyWork></MyWork>
+      <Contact></Contact>
     </div>
   );
 };
