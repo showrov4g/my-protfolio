@@ -48,20 +48,20 @@ const About = () => {
       </div>
 
       {/* achievement section  */}
-      <div>
-        <div>
+      <div className="achievement flex w-full justify-around mb-20">
+        <div className="flex flex-col items-center gap-2.5 transition-all duration-200 hover:scale-125">
           <h1>10+</h1>
-          <p>Years of experience</p>
+          <p className="text-xl font-medium">Years of experience</p>
         </div>
         <hr />
-        <div>
+        <div  className="flex flex-col items-center gap-2.5 transition-all duration-200c  hover:scale-125">
           <h1>10+</h1>
-          <p>Project completed</p>
+          <p className="text-xl font-medium">Project completed</p>
         </div>
         <hr />
-        <div>
+        <div  className="flex flex-col items-center gap-2.5 transition-all duration-200  hover:scale-125">
           <h1>10+</h1>
-          <p>Happy clients</p>
+          <p className="text-xl font-medium">Happy clients</p>
         </div>
       </div>
     </div>
